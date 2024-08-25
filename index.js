@@ -24,7 +24,7 @@ app.use(
 app.use("/auth", authRouter);
 app.use("/product", productRouter);
 
-const PORT = 3000;
+const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
